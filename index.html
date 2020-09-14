@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Comprible" content="ie=edge"/>
+    <title>Juice</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="nav-wrapper">
+            <div class="logo"><span>Тропический</span> Сад</div>
+            <ul class="topmenu">
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#product">О продукте</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#price">Цены</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#blog">Блог</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Контакты</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Тверская улица, дом 13</a></li>
+                        <li><a href="https://instagram.com">Instagram</a></li>
+                        <li><a href="https://vk.com/">VK</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div class="header-desc">
+                <h1 class="header__title">Натуральные соки</h1>
+                <div class="header-text"><p>Cок является одним из самых целебных напитков
+                    , дарит энергию и заряжает витаминами. Стакан сока в день и ты готов свенуть горы!</p>
+                </div>
+                <a href="#" class="header_btn">Получить заряд</a>
+            </div>
+            <div class="header-photo">
+                <img src="img/product.png" alt="Products"/>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="product">
+    <div class="container">
+        <div class="t-col">
+            <h2 class="title">
+                <strong>
+                    ПОЛЕЗНЫЕ СВОЙСТВА СВЕЖЕВЫЖАТЫХ СОКОВ
+                    <br>
+                </strong>
+            </h2>
+        </div>
+        <div class="t-col_2">
+            <div class="text">
+                <span>
+                    Все свежие соки содержат в себе большое число витаминов и минералов,
+                    которые быстро усваиваются человеческим организмом и принимают участие в биохимических процессах. Польза свежевыжатых соков бесспорна: в отличие от магазинных напитков, они ускоряют метаболизм, придают бодрости, укрепляют сердечно-сосудистую систему.
+                    Если пить их постоянно и в дозированных количествах,
+                    можно значительно улучшить здоровье и восполнить свой недостаток важных микроэлементов.
+                </span>
+            </div>
+        </div>
+        <div class="t-col">
+            <h2 class="title">
+                <strong>В чем польза натуральных соков</strong>
+            </h2>
+        </div>
+        <div class="t-col_2">
+            <div class="text">
+                <span>
+                    Все свежие соки содержат в себе большое число витаминов и минералов,
+                    которые быстро усваиваются человеческим организмом и принимают участие в биохимических процессах. Польза свежевыжатых соков бесспорна: в отличие от магазинных напитков, они ускоряют метаболизм, придают бодрости, укрепляют сердечно-сосудистую систему.
+                    Если пить их постоянно и в дозированных количествах,
+                    можно значительно улучшить здоровье и восполнить свой недостаток важных микроэлементов.
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="price">
+    <div class="container">
+        <div class="t-col">
+            <h2 class="title">
+                <strong>Соки</strong>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card__image"><img
+                            src="https://freshu.kz/images/thumbnails/500/350/detailed/776/79101477_w640_h640_cid209653_pid53488970-6b61f1eb.jpg">
+                    </div>
+                    <div class="card__title">Masafi Натуральный сок 100% Манго, 1 л</div>
+                    <div class="card_price">
+                        <span>1 550,00 ₸ </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card__image"><img
+                            src="https://www.bezparazitoff.ru/wa-data/public/shop/products/81/03/381/images/3959/3959.970.png">
+                    </div>
+                    <div class="card__title">Тыквенный Натуральный сок 100% Манго, 1 л</div>
+                    <div class="card_price">
+                        <span>1 250,00 ₸ </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <h2>Отзывы</h2>
+        <div class="reviews">
+
+            <div class="review_name">
+                Ильяс
+            </div>
+            <div class="review_text">
+                Отличные соки!
+            </div>
+            <div class="review_name">
+                Амир
+            </div>
+            <div class="review_text">
+                Очень вкусные!
+            </div>
+        </div>
+        <div class="send">
+            <form method="post" action="#" id="review">
+                <input type="text" name="review_name" placeholder="ваше имя">
+                <textarea name="review_text"></textarea>
+                <input type="submit" class="btn" value="отправить">
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Макиров Ильяс <a href="https://google.com">Google</a></p>
+</footer>
+</body>
+</html>
